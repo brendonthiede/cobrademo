@@ -36,11 +36,11 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("commaTest called")
-		fmt.Println("slice value:")
+		fmt.Println("\nslice value:")
 		for _, v := range slice {
 			fmt.Println(v)
 		}
-		fmt.Println("array value:")
+		fmt.Println("\narray value:")
 		for _, v := range arr {
 			fmt.Println(v)
 		}
